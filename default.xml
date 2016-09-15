@@ -6,8 +6,11 @@
 
   <remote  name="github"
            fetch="git://github.com/"
-           review="https://review.slimroms.org/"/>
+           review="https://review.slimroms.org/" />
 
+  <remote  name="tandob-aosp"
+           fetch="git://github.com/tandob-aosp" />
+           
   <default revision="refs/tags/android-7.0.0_r1"
            remote="aosp"
            sync-j="4" />
@@ -296,15 +299,15 @@
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="ng7.0" />
+  <project path="external/wpa_supplicant_8" name="tandob-aosp/android_external_wpa_supplicant_8" remote="github" revision="ng7.0" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="ng7.0" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="ng7.0" />
+  <project path="frameworks/av" name="tandob-aosp/frameworks_av" remote="github" revision="ng7.0" />
+  <project path="frameworks/base" name="Standob-aosp/frameworks_base" remote="github" revision="ng7.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -312,7 +315,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="ng7.0" />
+  <project path="frameworks/native" name="tandob-aosp/frameworks_native" remote="github" revision="ng7.0" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="SlimRoms/frameworks_opt_bluetooth" remote="github" revision="ng7.0" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -328,7 +331,7 @@
   <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" remote="github" revision="ng7.0" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="ng7.0" />
+  <project path="frameworks/opt/telephony" name="tandob-aosp/frameworks_opt_telephony" remote="github" revision="ng7.0" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
@@ -505,19 +508,19 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="SlimRoms/android_system_bt" remote="github" revision="ng7.0" />
+  <project path="system/bt" name="tandob-aospe/android_system_bt" remote="github" revision="ng7.0" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="ng7.0" />
+  <project path="system/core" name="tandob-aosp/android_system_core" remote="github" revision="ng7.0" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="ng7.0" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="ng7.0" />
   <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="ng7.0" />
   <project path="system/nativepower" name="platform/system/nativepower" />
-  <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="ng7.0" />
+  <project path="system/netd" name="tandob-aosp/android_system_netd" remote="github" revision="ng7.0" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="ng7.0" />
   <project path="system/security" name="SlimRoms/android_system_security" remote="github" revision="ng7.0" />
@@ -525,7 +528,7 @@
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
-  <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="ng7.0" />
+  <project path="system/vold" name="tandob-aosp/android_system_vold" remote="github" revision="ng7.0" />
   <project path="system/weaved" name="platform/system/weaved" />
   <project path="system/webservd" name="platform/system/webservd" />
   <project path="toolchain/binutils" name="toolchain/binutils" />
