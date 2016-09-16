@@ -560,5 +560,4 @@
   <!-- SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="ng7.0" />
 
-  <project path="device/Micromax/E313" name="tandob-aosp/android_device_Micromax_E313" remote="github" revision="ng7.0" />
 </manifest>
