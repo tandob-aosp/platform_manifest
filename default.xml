@@ -283,7 +283,7 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" remote="github" revision="ng7.0" />
-  <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" remote="github" revision="ng7.0" />
+  <project path="external/tinycompress" name="tandob-aosp/android_external_tinycompress" remote="github" revision="ng7.0" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tlsdate" name="platform/external/tlsdate" />
@@ -559,4 +559,5 @@
   <!-- SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="ng7.0" />
 
+  <project path="device/Micromax/E313" name="tandob-aosp/android_device_Micromax_E313" remote="github" revision="ng7.0" />
 </manifest>
